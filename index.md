@@ -1,6 +1,6 @@
 <table border="0" >
   <tr>
-    <td width="75%">
+    <td width="75%" bgcolor=#CBF7D0>
       <h1>黄哲远</h1>
       <p><b>本科生</b></p>
       <p><b>南京理工大学经济管理学院</b></p>
