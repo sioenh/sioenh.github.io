@@ -1,4 +1,4 @@
-<table border="0" ><td bgcolor =yellow>
+<table border="0" >
   <tr>
     <td width="75%">
       <h1>黄哲远</h1>
