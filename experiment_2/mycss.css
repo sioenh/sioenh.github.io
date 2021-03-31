@@ -14,6 +14,7 @@ p.top{
 	margin-left:20px;
 	margin-right:20px;
 	font-size:18px;
+	text-align:center;
 	font-style: italic;
 	text-shadow: 2px 2px 5px #3048E3  /*字体阴影设置为蓝色*/
 	
@@ -22,5 +23,6 @@ p.top{
 p.bottom{
 	
 	font-family: "Times New Roman", Times, serif;
+	text-align:center;
 	
 }
