@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("/background.jpg");
+	background-repeat: no-repeat;
+  	background-position: right top;
+	margin-right: 200px;
+	backgroun-size:50% 50%
+	
+}
+
+p.top{
+	color:#FD4455;	/*字体颜色设置为红色*/
+	margin-left:20px;
+	margin-right:20px;
+	font-size:18px;
+	font-style: italic;
+	text-shadow: 2px 2px 5px #3048E3  /*字体阴影设置为蓝色*/
+	
+}
+
+p.bottom{
+	
+	font-family: "Times New Roman", Times, serif;
+	
+}
