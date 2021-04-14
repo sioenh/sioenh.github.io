@@ -1,0 +1,47 @@
+<html>
+<head>
+
+<script >
+
+var sent = "假如我是一只鸟，我也就应用嘶哑的喉咙歌唱：这被暴风雨所打击的土地，这永远汹涌着我们的悲愤的河流，这无止息地吹刮着的激怒的风，和那来自林间的无比温柔的黎明……——然后我死了，连羽毛也腐烂在土地里面。为什么我的眼里常含泪水？因为我对这土地爱得深沉……"
+var slen = sent.length
+var siz = 25
+var a = -3, b = 0
+var subsent = "x"
+
+
+function makeSub(a,b) {
+subsent = sent.substring(a,b) ;
+return subsent;
+}
+
+
+function newMake() {
+a = a + 3;
+b = a + siz
+makeSub(a,b);
+return subsent
+}
+
+
+function doIt() {
+for (var i = 1; i <= slen ; i++) {
+setTimeout("document.z.textdisplay.value = newMake()", i*300);
+setTimeout("window.status = newMake()", i*300);
+}
+}
+
+</script> 
+</head>
+
+<body>
+<hr> <CENTER>
+<FORM NAME="z">
+<INPUT NAME="textdisplay" TYPE="text" SIZE=25> <P>
+<INPUT NAME="doit" Type="button" value = "Run Banner" onClick = "doIt()"> 
+</FORM></CENTER>
+
+<hr>
+
+</body>
+	</html>
