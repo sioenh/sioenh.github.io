@@ -1,0 +1,48 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>jquery1</title>
+    <style>
+
+        iframe {
+            border: 1px solid red;
+            width: 800px;
+            height: 500px;
+            position: absolute;
+            left: 400px;
+            top: 50px;
+            bottom: 200px;
+        }
+
+        div {
+            width: 300px;
+            top: 100px;
+            height: 50px;
+            
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#hide").click(function () {
+                $("iframe").hide();
+            });
+            $("#show").click(function () {
+                $("iframe").show();
+            });
+        });
+    </script>
+</head>
+
+<body>
+
+    <iframe src="https://maplab.amap.com/share/mapv/7d25abea13a496f3743acff2df87e329" width="1100" height="500"></iframe>
+    <div>
+        <p>通过隐藏和显示按钮开关地图功能</p>
+        <button id="hide">隐藏</button>
+        <button id="show">显示</button>
+
+    </div>
+</body>
+</html>

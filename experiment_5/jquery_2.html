@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                var div = $("div");
+                div.animate({ height: '300px', opacity: '0.4' }, "slow");
+                div.animate({ width: '300px', opacity: '0.8' }, "slow");
+                div.animate({ height: '100px', opacity: '0.4' }, "slow");
+                div.animate({ width: '100px', opacity: '0.8' }, "slow");
+            });
+        });
+    </script>
+
+
+    <style>
+        div{
+        
+        
+            left:200px;
+        }
+       
+
+    </style>
+
+</head>
+<body>
+
+    <button>开始动画</button>
+
+    
+
+    <div style="
+
+        background: #7FEBE5;
+        height: 100px;
+        width: 100px;
+        position: absolute;">
+
+    </div>
+
+</body>
+</html>
