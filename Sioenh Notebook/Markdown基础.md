@@ -177,7 +177,7 @@ ctrl+k
 ![自己起的图片的名字](图片的地址或者图片本地存储的路径)
 ```
 
-![圣诞狗🐕](C:\Users\Sioenh\Desktop\微信图片_20191218234947.jpg)
+<img src="\Xmas dog.jpg" alt="圣诞狗🐕" style="zoom:50%;" />
 
 > 或者直接复制
 
